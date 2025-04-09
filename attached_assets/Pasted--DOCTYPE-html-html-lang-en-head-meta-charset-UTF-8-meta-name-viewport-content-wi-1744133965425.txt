@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VHD Finance & Resolution Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f2f6fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #1f3c88, #5b86e5);
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: white;
+      border-radius: 12px;
+      padding: 2rem 3rem;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #1f3c88;
+      margin-bottom: 1rem;
+    }
+    section p, ul {
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta a {
+      background: #1f3c88;
+      color: white;
+      text-decoration: none;
+      padding: 0.9rem 2rem;
+      border-radius: 8px;
+      font-weight: 600;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #163075;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 2rem;
+      color: #555;
+    }
+    .image-section {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .image-section img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>VHD Finance & Resolution Agency</h1>
+    <p>Helping Banks Recover, One Case at a Time</p>
+  </header>
+
+  <div class="image-section">
+    <img src="https://images.unsplash.com/photo-1565372918720-8cfb85a4e23f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Finance Office">
+  </div>
+
+  <section>
+    <h2>About Us</h2>
+    <p>VHD Finance & Resolution Agency, founded by Mr. Devendra Salve in Khandwa, MP, is committed to helping Indian banks with trusted loan recovery and resolution support. With deep regional knowledge and a commitment to transparency, we ensure timely results and reliable field presence.</p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Resolution of Non-Performing Assets (NPAs)</li>
+      <li>On-field Recovery & Collection Services</li>
+      <li>Delivery of Legal Notices & Documents</li>
+      <li>Property & Asset Tracing in Rural and Urban Zones</li>
+      <li>Reports & Feedback with Real-time Updates</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>Strong Local Network & Presence in Rural MP</li>
+      <li>Professional & Trained Field Agents</li>
+      <li>100% Confidential and Legal Processes</li>
+      <li>GPS-Enabled Verification and Digital Proof</li>
+      <li>Trusted by Banks including Punjab National Bank</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:devendrakumarsalve@gmail.com">devendrakumarsalve@gmail.com</a></p>
+    <p>Phone / WhatsApp: <a href="https://wa.me/917000779744" target="_blank">+91 70007 79744</a></p>
+    <div class="cta">
+      <a href="https://wa.me/917000779744" target="_blank">Message Us on WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 VHD Finance & Resolution Agency. Built with care and trust.
+  </footer>
+
+</body>
+</html>

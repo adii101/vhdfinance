@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VHD Finance & Resolution Agency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.ico') }}">
+  <meta name="description" content="VHD Finance & Resolution Agency provides premium loan recovery and resolution services for banks in India. Founded by Mr. Devendra Salve, we offer professional field agents and trusted financial solutions.">
+</head>
+<body>
+  <header id="home">
+    <nav>
+      <div class="logo">
+        <h2>VHD Finance</h2>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <div class="header-content">
+      <h1>VHD Finance & Resolution Agency</h1>
+      <p>Helping Banks Recover, One Case at a Time</p>
+      <div class="cta-header">
+        <a href="#contact" class="cta-btn">Contact Us</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="section texture-bg">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>VHD Finance & Resolution Agency, founded by <span class="premium-gradient-text">Mr. Devendra Salve</span> in Khandwa, MP, is committed to helping Indian banks with trusted loan recovery and resolution support. With deep regional knowledge and a commitment to transparency, we ensure timely results and reliable field presence.</p>
+          <p>Our team of professionals combines financial expertise with local knowledge to deliver results that exceed expectations. We understand the complexities of the Indian banking sector and provide customized solutions to meet the unique challenges facing our clients.</p>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1565372918720-8cfb85a4e23f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Finance Office">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section bg-light texture-bg">
+    <div class="container">
+      <h2 class="section-title">Our <span class="premium-gradient-text">Premium</span> Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Resolution of NPAs</h3>
+          <p>Comprehensive solutions for Non-Performing Assets with strategic approaches tailored to each case.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-hand-holding-usd"></i>
+          </div>
+          <h3>Recovery & Collection</h3>
+          <p>Professional on-field recovery and collection services with respectful and legal approaches.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-file-contract"></i>
+          </div>
+          <h3>Legal Notice Delivery</h3>
+          <p>Prompt and proper delivery of legal notices and documents with proof of service.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-search-location"></i>
+          </div>
+          <h3>Asset Tracing</h3>
+          <p>Detailed property and asset tracing in both rural and urban zones with accurate reporting.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-chart-bar"></i>
+          </div>
+          <h3>Reports & Feedback</h3>
+          <p>Comprehensive reports with real-time updates on recovery progress and outcomes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why-us" class="section texture-bg">
+    <div class="container">
+      <h2 class="section-title">Why Choose <span class="premium-gradient-text">Us</span>?</h2>
+      <div class="why-us-content">
+        <div class="why-us-image">
+          <img src="https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Professional Team">
+        </div>
+        <div class="why-us-points">
+          <div class="point">
+            <i class="fas fa-network-wired"></i>
+            <div>
+              <h3>Strong Local Network</h3>
+              <p>Extensive presence and connections in rural MP for effective recovery operations.</p>
+            </div>
+          </div>
+          <div class="point">
+            <i class="fas fa-user-tie"></i>
+            <div>
+              <h3>Professional Agents</h3>
+              <p>Well-trained field agents who understand both financial and social aspects of recovery.</p>
+            </div>
+          </div>
+          <div class="point">
+            <i class="fas fa-lock"></i>
+            <div>
+              <h3>100% Confidential</h3>
+              <p>Complete confidentiality and adherence to legal processes in all operations.</p>
+            </div>
+          </div>
+          <div class="point">
+            <i class="fas fa-map-marked-alt"></i>
+            <div>
+              <h3>GPS-Enabled Verification</h3>
+              <p>Advanced digital proof and GPS verification for all field activities.</p>
+            </div>
+          </div>
+          <div class="point">
+            <i class="fas fa-handshake"></i>
+            <div>
+              <h3>Trusted Partner</h3>
+              <p>Trusted by major banks including Punjab National Bank for reliable services.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section bg-light texture-bg">
+    <div class="container">
+      <h2 class="section-title">Contact <span class="premium-gradient-text">Us</span></h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:devendrakumarsalve@gmail.com">devendrakumarsalve@gmail.com</a></p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <h3>Phone / WhatsApp</h3>
+            <p><a href="https://wa.me/919425343666" target="_blank">+91 94253 43666</a></p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Location</h3>
+            <p>Khandwa, Madhya Pradesh, India</p>
+          </div>
+        </div>
+        <div class="cta-contact">
+          <h3>Ready to enhance your recovery operations?</h3>
+          <p>Contact us today to discuss how we can help your bank improve its loan recovery rates.</p>
+          <a href="https://wa.me/919425343666" target="_blank" class="cta-btn">
+            <i class="fab fa-whatsapp"></i> Message Us on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>VHD Finance & Resolution Agency</h3>
+          <p>Professional | Reliable | Efficient</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 VHD Finance & Resolution Agency. Built with care and trust.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
